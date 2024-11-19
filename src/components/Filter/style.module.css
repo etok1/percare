@@ -1,0 +1,102 @@
+.filter {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 360px;
+  width: 100%;
+  padding: 20px 15px;
+  background-color: transparent;
+  /* box-shadow: 0px 0px 20px 1px rgb(0, 0, 0, 0.25); */
+}
+
+.filter h2 {
+  align-self: center;
+  font-size: 24px;
+  color: var(--ash);
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.category {
+  width: 80%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.category h3 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--ash);
+}
+
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  font-weight: 500;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px 23px;
+  border: 2px solid var(--btn-border);
+  background-color: var(--bg-btn);
+  color: var(--btn-border);
+  transition: all 0.3s linear;
+
+  &:hover {
+    border: 2px solid var(--light-green);
+    background-color: var(--light-green);
+    color: var(--white);
+  }
+}
+
+.btnActive {
+  padding: 8px 25px;
+  border: none;
+  background-color: var(--light-green);
+
+  color: var(--white);
+}
+
+.input {
+  font-size: 14px;
+  border-radius: 12px;
+  border: 1px solid var(--ash);
+  outline: none;
+  padding: 10px 16px;
+  width: 100%;
+  transition: all 0.1s ease;
+
+  &:focus {
+    border: 2px solid var(--light-green);
+  }
+}
+.selection {
+  padding: 10px;
+  padding-right: 50px;
+  border-radius: 12px;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+}
+
+.option {
+  background-color: transparent;
+  color: var(--ash);
+  font-weight: 500;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--light-green);
+    color: var(--white);
+  }
+}
