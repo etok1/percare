@@ -42,19 +42,20 @@
 }
 
 .btn {
+  font-family: "Comfortaa", sans-serif;
   font-weight: 500;
   border-radius: 9999px;
   cursor: pointer;
   font-size: 14px;
-  padding: 6px 23px;
+  padding: 6px 18px;
   border: 2px solid var(--btn-border);
   background-color: var(--bg-btn);
   color: var(--btn-border);
   transition: all 0.3s linear;
 
   &:hover {
-    border: 2px solid var(--light-green);
-    background-color: var(--light-green);
+    border: 2px solid var(--green);
+    background-color: var(--green);
     color: var(--white);
   }
 }
@@ -62,12 +63,19 @@
 .btnActive {
   padding: 8px 25px;
   border: none;
-  background-color: var(--light-green);
+  background-color: var(--green);
 
   color: var(--white);
+
+  &:hover {
+    border: none;
+    background-color: var(--green);
+    color: var(--white);
+  }
 }
 
 .input {
+  font-family: "Comfortaa", sans-serif;
   font-size: 14px;
   border-radius: 12px;
   border: 1px solid var(--ash);
@@ -77,10 +85,12 @@
   transition: all 0.1s ease;
 
   &:focus {
-    border: 2px solid var(--light-green);
+    border: 2px solid var(--green);
   }
 }
 .selection {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 14px;
   padding: 10px;
   padding-right: 50px;
   border-radius: 12px;
@@ -90,8 +100,10 @@
 }
 
 .option {
+  font-family: "Comfortaa", sans-serif;
   background-color: transparent;
   color: var(--ash);
+  font-size: 14px;
   font-weight: 500;
   cursor: pointer;
 

@@ -19,6 +19,12 @@
   font-weight: 700;
 }
 
+.help h4 {
+  font-size: 48px;
+  color: var(--brown);
+  font-weight: 700;
+}
+
 .header p {
   margin-top: 25px;
   font-size: 19px;
@@ -31,7 +37,8 @@
 }
 
 .goals,
-.problems {
+.problems,
+.help {
   margin-top: 150px;
   display: flex;
   flex-direction: column;
@@ -83,5 +90,6 @@
 }
 
 .list li strong {
-  font-weight: 700;
+  font-weight: bold;
+  -webkit-text-stroke: 1px var(--brown);
 }
